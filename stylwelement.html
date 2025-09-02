@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Integration Example</title>
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    .intro {
+      font-size: 18px;
+      color: #444;
+    }
+
+    .external-example {
+      margin-top: 20px;
+    }
+  </style>
+
+  ... External CSS ...
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to CSS Integration</h1>
+
+  ... Inline CSS ...
+  <p style="color: red; font-weight: bold;">
+    This text is styled using Inline CSS.
+  </p>
+
+  ... Document-level CSS ...
+  <p class="intro">
+    This text is styled using Document-level (Internal) CSS.
+  </p>
+
+  ... External CSS ...
+  <p class="external-example">
+    This text is styled using External CSS (from style.css file).
+  </p>
+</body>
+</html>
